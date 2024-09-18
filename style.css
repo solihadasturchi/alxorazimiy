@@ -1,0 +1,108 @@
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+nav{
+    background-color:cadetblue;
+}
+a{
+    color: white;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center;
+}
+main img{
+    width: 400px;
+}
+main h1{
+    color: white;
+    font-size: 4rem;
+}
+main p{
+    font-size: 2rem;
+}
+hr{
+    width: 50%;
+    border: 1px solid white
+}
+#about{
+    text-align: center;
+    padding: 100px 0;
+}
+h2{
+    font-size: 3rem;
+}
+#news{
+    text-align: center;
+    padding: 100px 0;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;   
+}
+.card:hover{
+    scale: 1.1;
+    transition: all 0.5s ease-in-out;
+
+
+}
+.card{
+    background-color: #3f72af;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.card img{
+     border-radius: 1rem;
+     width: 300px;
+     height: 300px;
+}
+button {
+    background-color: #3f72af;
+    border: none;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+#contact{
+    text-align: center;
+    border: 2px dashed #112d4e;
+    max-width: 500px;
+    margin: 100px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+input{
+    width: 100%;
+    padding: 1 rem 0;
+    border-radius:  2 rem;
+}
+footer{
+    background-color: #112d4e;
+    text-align: center;
+    padding: 1rem;
+}
+a:hover{
+color: darkgoldenrod;
+transform: all 0.2s;
+}
+button:hover{
+    background-color: azure;
+    color: #3f72af;
+    transition: all 0.2s;
+}
